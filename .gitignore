@@ -1,0 +1,14 @@
+# OS/editor noise
+.DS_Store
+*.swp
+.vscode/
+
+# Never commit target-provided creds, loot, or raw scan dumps with real IPs
+loot/
+*.pcap
+nmap-raw/
+
+# Python
+__pycache__/
+*.pyc
+venv/
